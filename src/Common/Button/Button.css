@@ -1,0 +1,33 @@
+
+.discordButton{
+    display: flex;
+    width : 400px ;
+    height: 50px;
+    background-color: #5865f2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    color : #FFFF ;
+    text-decoration: none;
+    font-family: Nunito,sans-serif;
+    font-size: 20px;
+    margin: 0 auto ;
+}
+
+.discordButton::before{
+    content : "";
+    height: 2rem;
+    width: 2rem;
+    margin-right: 8px;
+    background-color : #FFFF ;
+}
+
+.button-div{
+    position:relative ;
+    display:flex ;
+    margin:auto;
+    width : 400px ;
+    height: 50px ;
+    top : 400px ;
+}
