@@ -2,4 +2,18 @@
     width : 100% ;
     height : 800px ;
     background : url("../../assets/images/banner.jpeg") ;
+    
+}
+
+.solana{
+    cursor : default ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top : 320px ;
+    font-size : 20px ;
+    color : #9E0A00 ;
+    cursor : default ;
+    font-family: Nunito,sans-serif;
 }

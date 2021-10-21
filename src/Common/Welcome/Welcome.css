@@ -1,0 +1,16 @@
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top : 140px ;
+    font-size : 70px ;
+    color : #f8a814 ;
+    font-family: 'Caveat', cursive;
+    cursor : default ;
+}
+
+.text-container{
+    cursor : default ;
+    margin-right : 35px ;
+}

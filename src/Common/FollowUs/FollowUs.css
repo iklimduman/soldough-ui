@@ -1,5 +1,13 @@
 .follow-container{
+    position: absolute;
     width : 100% ;
     height: 300px ;
-     background-color :  rgb(255, 218, 142 , 0.3);
+    background-color :  rgb(255, 218, 142 , 0.3);
+    display : flex ;
+    flex-direction: row;
+}
+
+.horizontal-line{
+    width : 60% ;
+    height: 3px ;
 }

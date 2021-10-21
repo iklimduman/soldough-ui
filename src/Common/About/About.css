@@ -12,7 +12,6 @@
 .text-container{
     width : 600px ;
     height : 800px ;
-    border : 2px solid black ;
 }
 
 .image-container{
@@ -20,4 +19,24 @@
     height : 800px ;
     border : 2px solid black ;
     margin-left: 15px ;
+}
+
+.heading-1{
+    cursor: default;
+    font-family: 'Kalam', cursive;
+    font-size : 4rem ;
+    margin-bottom : 20px !important ;
+    color :#FFB900 ;
+    text-shadow :
+
+    /* 3d layers */
+
+    0px 0px 1px #A40000 ,
+    0px 1px 1px #A40000,
+    0px 2px 1px #A40000 ,
+
+    1px 1px 1px #A40000 ,
+    1px 2px 1px #A40000 ,
+    1px 3px 1px #A40000;
+
 }

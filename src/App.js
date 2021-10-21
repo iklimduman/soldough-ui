@@ -16,7 +16,6 @@ function App() {
       <Divider />
       <Part />
       <Footer />
-      <FollowUs />
     </div>
   );
 }
