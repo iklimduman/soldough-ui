@@ -9,17 +9,17 @@ const Part = () => {
 
             <div className="gif-container">
                 <div className="grid-container">
-                    <div className="img-container" style={{"background-color" : "#C12EC1"}}></div>
-                    <div className="img-container" style={{"background-color" : "#402EC1"}}></div>
-                    <div className="img-container" style={{"background-color" : "#EC1F12"}}></div>
+                    <div className="img-container-1"></div>
+                    <div className="img-container-2"></div>
+                    <div className="img-container-3"></div>
 
-                    <div className="img-container" style={{"background-color" : "#E2EC12"}}></div>
-                    <div className="img-container" style={{"background-color" : "#31B60E"}}></div>
-                    <div className="img-container" style={{"background-color" : "#76FEBC"}}></div>
+                    <div className="img-container-4"></div>
+                    <div className="img-container-5"></div>
+                    <div className="img-container-6"></div>
 
-                    <div className="img-container" style={{"background-color" : "#76F2FE"}}></div>
-                    <div className="img-container" style={{"background-color" : "#769FFE"}}></div>
-                    <div className="img-container" style={{"background-color" : "#B476FE"}}></div>
+                    <div className="img-container-7"></div>
+                    <div className="img-container-8"></div>
+                    <div className="img-container-9"></div>
                 </div>
             </div>
 
