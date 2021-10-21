@@ -2,6 +2,8 @@
     width : 100% ;
     height : 800px ;
     background : url("../../assets/images/banner.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 

@@ -14,7 +14,9 @@ const About = () => {
             
             </div>
             <div className="image-container">
-                <span>IMAGE</span>
+                <div className="img-cont">
+
+                </div>
             </div>
         </div>
     )
