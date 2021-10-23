@@ -7,6 +7,8 @@ import Part from './Common/Part/Part';
 import Divider from './Common/Divider/Divider';
 import Footer from './Common/Footer/Footer';
 import FollowUs from './Common/FollowUs/FollowUs';
+import Faq from './Common/Faq/Faq';
+import Question from './Common/Question/Question';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <About />
       <Divider />
       <Part />
+      <Faq />
+      <Question />
       <Footer />
     </div>
   );
