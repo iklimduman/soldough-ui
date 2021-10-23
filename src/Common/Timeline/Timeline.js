@@ -45,17 +45,20 @@ const Timeline = () => {
                 <div class="container left">
                     <div class="content">
                         <div className="item-1">
-
-                            <ul>
-                                <li>Use 15% amount of launch income to buyback and burn</li>
-                                <li>Use 20% amount of loyalty income to buyback and burn</li>
-                                <li>Use 20% amount of loyalty income to organize NFT airdrops for SolDough holders</li>
-                                <li>Grape verification</li>
-                                <li>Use 20% amount of royalty income to send DAO, if community established </li>
-                            </ul>
-                            <div className="image-div-angel">
+                            <div className="deneme">
+                                <ul>
+                                    <li>Use 15% amount of launch income to buyback and burn</li>
+                                    <li>Use 20% amount of loyalty income to buyback and burn</li>
+                                    <li>Use 20% amount of loyalty income to organize NFT airdrops for SolDough holders</li>
+                                    <li>Grape verification</li>
+                                    <li>Use 20% amount of royalty income to send DAO, if community established </li>
+                                </ul>
                             </div>
+                            <div className="gorsel">
+                                <div className="image-div-angel">
+                                </div>
 
+                            </div>
 
                         </div>
 
@@ -66,9 +69,10 @@ const Timeline = () => {
                         <div className="item-1">
                             <div className="text-div-quest">
                             </div>
-                            <ul>
+                            <ul className="last-text">
                                 <li>Deciding together the Roadmap V2 with DAO or community.</li>
                             </ul>
+
 
                         </div>
 
