@@ -17,8 +17,9 @@
 .image-container{
     width : 350px ;
     height : 800px ;
-    border : 2px solid black ;
-    margin-left: 15px ;
+    margin-left: 25px ;
+    display: flex;
+    flex-direction: column;
 }
 
 .heading-1{
@@ -45,6 +46,24 @@
     height : 500px ;
     width: 500px ;
     background-size: 500px;
-    background-repeat: no-repeat;
+    background : url("../../assets/images/SolDoughOut.png") no-repeat;
+    background-size: contain;
+    justify-content: center;
+    margin : auto ;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2%;
+
+    box-shadow :
+
+    /* 3d layers */
+
+    0px 0px 1px #A40000 ,
+    0px 1px 1px #A40000,
+    0px 2px 1px #A40000 ,
+
+    1px 1px 1px #A40000 ,
+    1px 2px 1px #A40000 ,
+    1px 3px 1px #A40000;
 
 }
