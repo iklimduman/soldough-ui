@@ -9,14 +9,24 @@
     padding-top : 150px ;
 }
 
+@media screen and (max-width: 800px) {
+    about-container {
+      flex-direction: column;
+    }
+    about-container>* {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+
 .text-container{
-    width : 600px ;
+    width : 30% ;
     height : 800px ;
 }
 
 .image-container{
-    width : 350px ;
-    height : 800px ;
+    width : 25% ;
+    height : 80% ;
     margin-left: 25px ;
     display: flex;
     flex-direction: column;
@@ -43,8 +53,8 @@
 }
 
 .img-cont{
-    height : 500px ;
-    width: 500px ;
+    height : 400px ;
+    width: 400px;
     background-size: 500px;
     background : url("../../assets/images/SolDoughOut.png") no-repeat;
     background-size: contain;

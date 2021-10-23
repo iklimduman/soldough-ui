@@ -9,6 +9,7 @@ import Footer from './Common/Footer/Footer';
 import FollowUs from './Common/FollowUs/FollowUs';
 import Faq from './Common/Faq/Faq';
 import Question from './Common/Question/Question';
+import Timeline from './Common/Timeline/Timeline';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Divider />
       <Part />
+      <Timeline />
       <Faq />
       <Question />
       <Footer />
