@@ -1,11 +1,11 @@
 .footer-container{
     min-width : 100% ;
-    height: 550px ;
+    min-height: 550px ;
     background-color :  rgb(255, 218, 142 , 0.3);
     justify-content: center;
     margin : auto ;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .footer-header{
@@ -23,7 +23,7 @@
 
 .text-div{
     display: flex;
-    max-width : 50% ;
+    max-width : 60% ;
     flex-direction: column;
 }
 

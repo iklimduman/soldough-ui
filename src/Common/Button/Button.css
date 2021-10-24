@@ -12,7 +12,23 @@
     text-decoration: none;
     font-family: Nunito,sans-serif;
     font-size: 20px;
-    margin: 0 auto ;
+    margin-bottom : 10px ;
+}
+
+.twitterButton{
+    display: flex;
+    width : 400px ;
+    height: 50px;
+    background-color: #51037e;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    color : #FFFF ;
+    text-decoration: none;
+    font-family: Nunito,sans-serif;
+    font-size: 20px;
+    margin-bottom : 10px ;
 }
 
 .discordButton::before{
@@ -26,34 +42,25 @@
     background-repeat: no-repeat;
 }
 
-.discordButton::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    border-radius: 35px;
-    background-color: rgba(255,255,255,0.4);
-	  -webkit-transition: none;
-	     -moz-transition: none;
-	          transition: none;
+.twitterButton::before{
+    content : "";
+    margin-right: 10px;
+    margin-top : 1px ;
+    height: 30px;
+    width: 30px;
+    background : url("../../assets/images/twitter-logo-white.png") ;
+    background-size: 30px;
+    background-repeat: no-repeat;
+
 }
 
-.discordButton:hover::after{
-    width: 120%;
-    border-radius: 35px;
-    background-color: rgba(255, 255, 255, 0);
-  
-	-webkit-transition: all 0.5s ease-in-out;
-	   -moz-transition: all 0.5s ease-in-out;
-	        transition: all 0.5s ease-in-out;
-}
  
 .button-div{
     position:absolute ;
-    width : 400px ;
-    height: 50px ;
-    top : 10% ;
-    left: 5% ;
+    max-width : 400px ;
+    max-height: 100px ;
+    width: 100%;
+    height: 100%;
+    top : 5% ;
+    right: 5% ;
 }

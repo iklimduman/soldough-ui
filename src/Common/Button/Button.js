@@ -10,6 +10,10 @@ const DiscordButton = () => {
             href="https://discord.com/"
             target="_blank"
             rel="noopener noreferrer">Join the community on Discord</a>
+            <a className="twitterButton" 
+            href="https://discord.com/"
+            target="_blank"
+            rel="noopener noreferrer">Follow us on Twitter</a>
         </div>
     )
 }
