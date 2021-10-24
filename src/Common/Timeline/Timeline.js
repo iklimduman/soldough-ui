@@ -6,9 +6,9 @@ const Timeline = () => {
     return (
         <div className="timeline-container">
             <span className="timeline-header">The Roadmap!</span>
-            <div class="timeline">
-                <div class="container left">
-                    <div class="content">
+            <div className="timeline">
+                <div className="container left">
+                    <div className="content">
                         <div className="item-1">
                             <ul>
                                 <li>Launch Discord & Twitter</li>
@@ -25,8 +25,8 @@ const Timeline = () => {
 
                     </div>
                 </div>
-                <div class="container right">
-                    <div class="content">
+                <div className="container right">
+                    <div className="content">
                         <div className="item-1">
                             <div className="text-div-light">
                             </div>
@@ -42,8 +42,8 @@ const Timeline = () => {
 
                     </div>
                 </div>
-                <div class="container left">
-                    <div class="content">
+                <div className="container left">
+                    <div className="content">
                         <div className="item-1">
                             <div className="deneme">
                                 <ul>
@@ -64,8 +64,8 @@ const Timeline = () => {
 
                     </div>
                 </div>
-                <div class="container right">
-                    <div class="content">
+                <div className="container right">
+                    <div className="content">
                         <div className="item-1">
                             <div className="text-div-quest">
                             </div>
