@@ -1,0 +1,223 @@
+.banner-container{
+    height:70vh;
+    min-width : 100% ;
+}
+
+.image-div{
+    position: relative;
+    width : 100% ;
+    height: 100% ;
+    background : url("../assets/images/banner-naked-1.png") 50%;
+    background-size: cover ;
+    
+}
+
+
+.welcome{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top : 10vh ;
+    font-size : 70px ;
+    color : #f8a814 ;
+    font-family: 'Caveat', cursive;
+    cursor : default ;
+    z-index: 1;
+}
+
+.banner-header{
+    height : 40% ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.actual-header{
+    height : 100% ;
+    width : 50% ;
+    background: url("../assets/images/bannner-header.png") 50% no-repeat;
+    background-size: contain ;
+    margin : auto ;
+}
+
+.solana{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom : 0 ;
+    padding-top : 3vh ;
+    font-size : 20px ;
+    color : #9E0A00 ;
+    cursor : default ;
+    font-family: Nunito,sans-serif;
+}
+
+.button-div{
+    position : absolute ;
+    top : 10% ;
+    right: 5% ;
+    display: flex;
+    flex-direction: column ;
+    gap : 12px ;
+    z-index: 1;
+}
+
+.discord-button-top{
+    display: flex;
+    width : 250px ;
+    height: 50px;
+    background-color: #5865f2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    color : #FFFF ;
+    text-decoration: none;
+    font-family: Nunito,sans-serif;
+    font-size: 15px;
+    margin-bottom : 10px ;
+    cursor: pointer;
+}
+
+.twitter-button-top{
+    display: flex;
+    width : 250px ;
+    height: 50px;
+    background-color: #520177  !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    color : #FFFF ;
+    text-decoration: none;
+    font-family: Nunito,sans-serif;
+    font-size: 15px;
+    margin-bottom : 10px ;
+    cursor: pointer;
+}
+
+.discord-button-top::before{
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    display: inline-block;
+    background: url("../assets/images/Discord-Logo-White.svg") no-repeat;
+    background-size: contain;
+    margin: 0 0.5rem 0 0;
+}
+
+.twitter-button-top::before{
+    content : "";
+    margin: 0 0.5rem 0 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: inline-block;
+    background : url("../assets/images/twitter-logo-white.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width : 1500px) {
+
+    .button-div{
+        right: 0% ;
+        margin-top : -100px ;
+        flex-direction: row ;
+        position : relative ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+
+    .button-div{
+        right: 0% ;
+        margin-top : -100px ;
+        flex-direction: row ;
+        position : relative ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .actual-header{
+        width: 70% ;
+    }
+}
+
+@media screen and (max-width : 700px) {
+
+    .button-div{
+        right: 0% ;
+        margin-top : -100px ;
+        flex-direction: row ;
+        position : relative ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .actual-header{
+        width: 80% ;
+    }
+}
+
+@media screen and (max-width : 500px) {
+
+    .button-div{
+        right: 0% ;
+        margin-top : -100px ;
+        flex-direction: row ;
+        position : relative ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap : 5px ;
+    }
+
+    .actual-header{
+        width: 100% ;
+    }
+
+    .welcome{
+        font-size: 45px;
+    }
+
+    .solana{
+        font-size: 15px ;
+    }
+
+    .discord-button-top{
+        font-size: 11px ;
+        text-align: left  ;
+        height: 40px ;
+    }
+
+    .discord-button-top::before{
+        height: 1.3rem ;
+        width: 1.3rem ;
+    }
+
+    .twitter-button-top::before{
+        height: 1.3rem ;
+        width: 1.3rem ;
+    }
+
+    .twitter-button-top{
+        font-size: 10px ;
+        height: 40px ;
+    }
+}

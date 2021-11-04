@@ -1,15 +1,19 @@
+import logo from './logo.svg';
 import './App.css';
 
-import Banner from './Common/Banner/Banner';
-import About from './Common/About/About';
-import Part from './Common/Part/Part';
-
-import Divider from './Common/Divider/Divider';
-import Footer from './Common/Footer/Footer';
-import FollowUs from './Common/FollowUs/FollowUs';
-import Faq from './Common/Faq/Faq';
-import Question from './Common/Question/Question';
-import Timeline from './Common/Timeline/Timeline';
+import Banner from './Banner/Banner';
+import About from './About/About';
+import Divider from "./Divider/Divider";
+import Part from "./Part/Part";
+import Timeline from "./Timeline/Timeline";
+import Footer from './Footer/Footer';
+import Faq from './Faq/Faq';
+import Question from './Question/Question';
+import Market from './Market/Market';
+import End from './End/End';
+import Dividerbrown from './Dividerbrown/Divider';
+import Dividergolden from './Dividergolden/Divider';
+import Divideryellow from './Divideryellow/Divider';
 
 function App() {
   return (
@@ -18,10 +22,15 @@ function App() {
       <About />
       <Divider />
       <Part />
+      <Dividerbrown />
+      <Market />
+      <Divideryellow />
       <Timeline />
+      <Dividergolden />
       <Faq />
       <Question />
       <Footer />
+      <End />
     </div>
   );
 }

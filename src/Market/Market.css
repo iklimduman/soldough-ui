@@ -1,0 +1,115 @@
+.cont-market{
+    width : 100% ;
+    background-color : rgba(255, 251, 197, 0.104) ;
+    padding-bottom : 5% ;
+    
+}
+
+.market-container{
+    width : 70% ;
+    background-color : rgba(255, 251, 197, 0.104) ;
+    justify-content: center;
+    margin : auto ;
+    display: flex;
+    text-align : justify ;
+    padding-bottom : 50px ;
+}
+
+.market-text{
+    flex : 50% ;
+}
+
+.market-text-act{
+    padding-left : 5% ;
+    padding-right : 5% ;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.market-image-cont{
+    flex : 50% ;
+    justify-content: center;
+    margin : auto ;
+    display: flex;
+    text-align : justify ;
+}
+
+.market-image{
+    height : 400px ;
+    width : 400px ;
+    background: url("../assets/images/market-gif.gif") no-repeat;
+    background-size: contain;
+    box-shadow: 
+
+    /* 3d layers */
+
+    0px 0px 1px #A40000 ,
+    0px 1px 1px #A40000,
+    0px 2px 1px #A40000 ,
+
+    1px 1px 1px #A40000 ,
+    1px 2px 1px #A40000 ,
+    1px 3px 1px #A40000;;
+    border-radius: 5%;
+}
+
+.market-header{
+    text-align: center;
+    margin : auto ;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+    font-family: 'Kalam', cursive;
+    font-size : 2.4rem ;
+    margin-bottom : 20px !important ;
+    color :#FFB900 ;
+    text-shadow :
+
+    /* 3d layers */
+
+    0px 0px 1px #A40000 ,
+    0px 1px 1px #A40000,
+    0px 2px 1px #A40000 ,
+
+    1px 1px 1px #A40000 ,
+    1px 2px 1px #A40000 ,
+    1px 3px 1px #A40000;
+
+}
+
+@media screen and (max-width : 1100px){
+    .market-container{
+        flex-direction: column ;
+    }
+    .market-image{
+        margin-top : 35px ;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .market-container{
+        width : 80% ;
+    }  
+}
+
+@media screen and (max-width : 480px){
+    .market-image{
+        width : 350px ;
+        height: 350px ;
+    }  
+}
+
+@media screen and (max-width : 420px){
+    .market-image{
+        width : 300px ;
+        height: 300px ;
+    }  
+}
+
+@media screen and (max-width : 350px){
+    .market-image{
+        width : 270px ;
+        height: 270px ;
+    }  
+}

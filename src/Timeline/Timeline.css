@@ -1,0 +1,264 @@
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color :rgba(255, 251, 197, 0.104)  ;
+}
+
+.vertical-line{
+  border-left : 3px solid #FFB900 ;
+  height: 150px ;
+  width : 200px ;
+  margin-left : 50% ;
+  top : 50% ;
+  z-index: -1;
+  position: relative ;
+  border-left-style :dashed ;
+}
+
+.item-1{
+  display : flex ;
+  flex-direction: row ;
+  text-align: justify ;
+  margin-left:20px ;
+}
+
+.last-text{
+}
+
+.item-1-sag{
+  display : flex ;
+  flex-direction: row ;
+  text-align: justify ;
+  padding-left : 5% ;
+}
+
+.item-1-son{
+  display : flex ;
+  flex-direction: row ;
+  padding-left : 10% ;
+  padding-top : 2% ;
+  padding-bottom: 2% ; 
+  text-align: justify ;
+}
+
+.image-div-glass{
+    flex : 40% ;
+    background-image : url("../assets/images/mag-glass.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom : 30px ;
+}
+
+.yatay{
+  display: flex;
+  flex-direction: column ;
+}
+
+.yatay-1{
+  flex : 60% ;
+  flex-direction: column;
+}
+
+.yatay-2{
+  flex : 60% ;
+  flex-direction: column;
+}
+
+.gorsel{
+    margin : auto ;
+}
+
+.image-div-angel{
+    margin : auto ;
+    width: 200px ;
+    height: 200px ;
+    background-image : url("../assets/images/angel.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-div-light{
+    flex : 40% ;
+    background-image : url("../assets/images/light.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text-div-quest{
+    flex : 40% ;
+    background-image : url("../assets/images/question-mark.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.timeline-container{
+    background-color : rgba(255, 251, 197, 0.104) ;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    vertical-align : middle;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.timeline-header{
+    cursor: default;
+    font-family: 'Kalam', cursive;
+    font-size : 4rem ;
+    margin-bottom : 20px !important ;
+    color :#FFB900 ;
+    text-shadow :
+
+    /* 3d layers */
+
+    0px 0px 1px #A40000 ,
+    0px 1px 1px #A40000,
+    0px 2px 1px #A40000 ,
+
+    1px 1px 1px #A40000 ,
+    1px 2px 1px #A40000 ,
+    1px 3px 1px #A40000;
+
+    margin-bottom : 15px ;
+}
+
+  
+  .container {
+    padding: 0 30px;
+    position: relative;
+    background: inherit;
+    width: 55%;
+    margin:auto ;
+  }
+  
+  .container.left {
+    margin:auto ;
+  }
+  
+  .container .content {
+    position: relative;
+    border-radius: 0 500px 500px 0;
+    border : 1px solid #FFB900  ;
+    padding-right : 2% ;
+  }
+  
+  .container.right .content {
+    border-radius: 500px 0 0 500px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .timeline::after {
+      left: 10px;
+    }
+  
+    .container {
+      width: 100%;
+    }
+  
+    .container.right {
+      left: 0%;
+    }
+  
+    .container.left::after, 
+    .container.right::after {
+      left: 82px;
+    }
+  
+    .container.left .date,
+    .container.right .date {
+      right: auto;
+      left: 15px;
+    }
+  
+    .container.left .icon,
+    .container.right .icon {
+      right: auto;
+      left: 146px;
+    }
+  
+    .container.left .content,
+    .container.right .content {
+      padding: 30px 30px 30px 50px;
+      border-radius: 500px 0 0 500px;
+    }
+
+  }
+
+  @media screen  and (max-width : 1000px ){
+    .container{
+      width : 80% ;
+      margin : auto ;
+    }
+    
+  }
+
+  @media screen  and (max-width : 656px ){
+
+    .text-div-light{
+      margin-top : 50px ;
+    }
+
+    .image-div-angel{
+      width : 150px ;
+      height : 150px ;
+    }
+
+    .container.left .content,
+    .container.right .content {
+      padding: 30px 30px 30px 0px;
+    }
+
+    .container{
+      width : 90% ;
+    }
+    
+  }
+
+  @media screen  and (max-width : 500px ){
+    
+    .container.right .content {
+      border-radius: 10px 10px 10px 10px;
+    }
+
+    .container.left .content{
+      border-radius: 10px 10px 10px 10px;
+    }
+
+    .text-div-light{
+      flex : 0%;
+    }
+
+    .image-div-glass{
+      flex : 0 !important;
+    }
+    .gorsel{
+      flex : 0 !important;
+    }
+
+    .text-div-quest{
+      flex:0% ;
+    }
+
+    .image-div-angel{
+      width : 0% ;
+      height: 0% ;
+    }
+
+    .container{
+      padding : 0 0 0 0 !important ;
+    }
+
+    .timeline-header{
+      font-size: 7vh;
+    }
+  }

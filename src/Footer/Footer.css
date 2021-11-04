@@ -1,0 +1,121 @@
+.footer-container{
+    min-width : 100% ;
+    padding-bottom : 50px ;
+    background-color :  rgb(255, 218, 142 , 0.3);
+    justify-content: center;
+    margin : auto ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-header{
+    cursor: default;
+    font-family: 'Kalam', cursive;
+    font-size : 4rem ;
+    color :#FFB900 ;
+    padding-top: 20px;
+}
+
+.text{
+    
+    line-height: 2;
+}
+
+.text-div{
+    display: flex;
+    width : 60% ;
+    flex-direction: column;
+}
+
+.discord-button{
+    margin-bottom : 40% ;
+    cursor: pointer;
+    display: flex;
+    width : 400px ;
+    height: 50px;
+    background-color: #5865f2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    color : #FFFF ;
+    text-decoration: none;
+    font-family: Nunito,sans-serif;
+    font-size: 20px;
+    margin: 0 auto ;
+    margin-bottom : 15px ;
+}
+
+.discord-button::before{
+    content : "";
+    margin-right: 10px;
+    margin-top : 1px ;
+    height: 30px;
+    width: 30px;
+    background : url("../assets/images/Discord-Logo-White.svg") ;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.twitter-button{
+    margin-bottom : 40% ;
+    cursor: pointer;
+    display: flex;
+    width : 400px ;
+    height: 50px;
+    background-color: #15bbfd;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    color : #FFFF ;
+    text-decoration: none;
+    font-family: Nunito,sans-serif;
+    font-size: 20px;
+    margin: 0 auto ;
+    margin-bottom : 15px ;
+}
+
+.twitter-button::before{
+    content : "";
+    margin-right: 10px;
+    margin-top : 1px ;
+    height: 30px;
+    width: 30px;
+    background : url("../assets/images/twitter-logo-white.png") ;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.button-cont{
+    vertical-align: middle;
+    margin-left: 5px ;
+    margin-top : 200px ;
+    width : 620px ;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width : 550px){
+    .button-cont{
+        margin-top : 70px ;
+    }
+
+    .discord-button{
+        width: 250px ;
+        font-size: 12px ;
+    }
+
+    .twitter-button{
+        width: 250px ;
+        font-size: 12px ;
+    }
+
+    .footer-header{
+        font-size: 2rem ;
+    }
+
+    .text-div{
+        width : 100% !important;
+    }
+}

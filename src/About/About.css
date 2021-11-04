@@ -1,0 +1,188 @@
+@desktop : 1200px ;
+@laptop : 1024px ;
+@tablet : 768px ;
+@phone : 480px ;
+
+.cont{
+    text-align: justify;
+    margin:auto ;
+    padding-top : 150px ;
+    background-color : rgba(255, 251, 197, 0.104) ;
+}
+
+.row{
+    display: flex;
+    width : 70%;
+    margin : auto ;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.columnText{
+    flex: 50%;
+    overflow: hidden;
+    padding-top : 3% ;
+}
+
+.columnImage{
+    flex: 40%;
+    padding-left : 10% ;
+    padding-top : 3% ;
+    margin-bottom: 70px;
+}
+
+.who-let-the-doughs-out{
+    width : 400px ;
+    height : 400px ;
+    background : url("../assets/images/SolDoughOut.png") no-repeat ;
+    background-size: contain;
+    box-shadow: 
+
+    /* 3d layers */
+
+    0px 0px 1px #A40000 ,
+    0px 1px 1px #A40000,
+    0px 2px 1px #A40000 ,
+
+    1px 1px 1px #A40000 ,
+    1px 2px 1px #A40000 ,
+    1px 3px 1px #A40000;;
+}
+
+.about-paragraph-1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    line-height: 2;
+}
+
+
+@media screen and (max-width : 1200px) {
+    .row {
+      flex-direction: column;
+    }
+    .columnImage{
+    }
+    .who-let-the-doughs-out{
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .row {
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .columnImage{
+        justify-content: center;
+        align-items: center;
+        min-height: 400px ;
+        min-width : 400px ;
+    }
+    .columnText{
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+      width : 80%
+    }
+    .columnImage{
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+    }
+    .who-let-the-doughs-out{
+        height: 400px ;
+        width: 400px ;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .row {
+      flex-direction: column;
+      width : 90% ;
+      display: block;
+    }
+    .columnImage{
+        max-height: 350px ;
+    }
+    .who-let-the-doughs-out{
+        height: 300px ;
+        width: 300px ;
+    }
+}
+
+@media screen and (max-width:450px) {
+    
+    
+}
+
+@media screen and (max-width: 400px) {
+    .row {
+      flex-direction: column;
+      width : 90%
+    }
+    .columnImage{
+        max-height: 300px ;
+        max-width: 300px ;
+        padding-top : 0% ;
+    }
+    .who-let-the-doughs-out{
+        height: 300px ;
+        width: 300px ;
+        margin-left: -90px;
+    }
+    .columnText{
+        max-width: 350px ;
+    }
+    .about-paragraph-1{
+        font-size: 16px ;
+    }
+}
+
+@media screen and (max-width:375px){
+    .columnImage{
+        max-height: 300px ;
+        max-width: 300px ;
+        padding-top : 0% ;
+    }
+    .who-let-the-doughs-out{
+        height: 300px ;
+        width: 300px ;
+        margin-top : -70px ;
+        margin-left: -70px;
+    }
+    .columnText{
+        max-width: 335px ;
+        margin-bottom : 35px ;
+    }
+    .about-paragraph-1{
+        font-size: 16px !important;
+    }
+}
+
+
+.textHeader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:auto ;
+    cursor: default;
+    font-family: 'Kalam', cursive;
+    font-size : 7vh ;
+    color :#FFB900 ;
+    text-shadow :
+
+    /* 3d layers */
+
+    0px 0px 1px #A40000 ,
+    0px 1px 1px #A40000,
+    0px 2px 1px #A40000 ,
+
+    1px 1px 1px #A40000 ,
+    1px 2px 1px #A40000 ,
+    1px 3px 1px #A40000;
+}
+
+

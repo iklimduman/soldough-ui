@@ -1,0 +1,56 @@
+.divider-container{
+    width : 100% ;
+    height: 70px;
+    padding-bottom : 5% ;
+    background-color : rgba(255, 251, 197, 0.104)  ;
+    justify-content: center;
+    margin : auto ;
+    display: flex;
+    flex-direction: row;
+}
+
+.dough-1-brown{
+    width : 70px ;
+    height: 70px ;
+    background : url("../assets/images/brown.PNG");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    margin-left : 15px ;
+    margin-right: 15px ;
+
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.dough-2-brown{
+    width : 70px ;
+    height: 70px ;
+    background : url("../assets/images/brown.PNG");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    margin-left : 15px ;
+    margin-right: 15px ;
+
+    -webkit-animation:spin 3.8s linear infinite;
+    -moz-animation:spin 3.8s linear infinite;
+    animation:spin 3.8s linear infinite;
+}
+
+.dough-3-brown{
+    width : 70px ;
+    height: 70px ;
+    background : url("../assets/images/brown.PNG");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    margin-left : 15px ;
+    margin-right: 15px ;
+
+    -webkit-animation:spin 3.5s linear infinite;
+    -moz-animation:spin 3.5s linear infinite;
+    animation:spin 3.5s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
