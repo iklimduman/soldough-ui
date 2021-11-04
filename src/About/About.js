@@ -10,6 +10,7 @@ const About = () => {
             <div className="row">
 
                 <div className="columnText">
+                
                     <p className="about-paragraph-1">SolDough represents the perfect combination of sugar and dough! The sweetness of the glaze and the flavor of the dough are empowered by our unique and incomparable attributes. This rare collection is flavored by meticulous touches by our artists. Our programmatically & randomly generated collection consists of 4444 SolDough NFTs! </p>
                     <br />
                     <br />
