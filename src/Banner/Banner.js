@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <header className="banner-container">
             <div className="image-div">
-                <span className="welcome">Welcome to the</span>
+                <span className="welcome">Welcome to</span>
                 <div className="banner-header"><div className="actual-header">
                     </div>
                 </div>
