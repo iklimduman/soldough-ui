@@ -27,14 +27,14 @@ const Question = () => {
                 <span className="question-heading">What will be the mint price for these beautiful and precious doughnuts?</span>
 
                 <span className="answer-span">We believe that mint prices should be affordable for the whole Solana community. Doughnuts are not a breed apart pleasure, it is for all of us!
-                    So that our mint price will be 0.44◎!</span>
+                    So that our mint price will be 0.4◎!</span>
                 <div className="moving-dough-left"></div>
             </div>
 
             <div className="question-box">
                 <span className="question-heading">How many SolDough will be created?</span>
 
-                <span className="answer-span">4444 will be the total supply of SolDough! 4000 of them will be minted by the community, 250 of them will be airdropped for free to SolDough Market Mini-Collection holders, and 194 will be used for marketing operations of the project. A big part of those 194 SolDough will be used to airdrop to communities of blue-chip projects with diamond-hand investors. We are aware that the blue-chip collections are the ones with diamond-hand holders and we will bring those holders to our community. Some parts of our airdrop items will be shared with Solana influencers to bring more attention! Lastly, no worries! We are aware that airdropped NFTs created sell-pressure to some projects in the past, we will always keep that under control.</span>
+                <span className="answer-span">2750 will be the total supply of SolDough! 2500 of them will be minted by the community, 200 of them will be airdropped for free to SolDough Market Mini-Collection holders, and 50 will be used for marketing operations of the project. A big part of those 50 SolDough will be used to airdrop to communities of blue-chip projects with diamond-hand investors. We are aware that the blue-chip collections are the ones with diamond-hand holders and we will bring those holders to our community. Some parts of our airdrop items will be shared with Solana influencers to bring more attention! Lastly, no worries! We are aware that airdropped NFTs created sell-pressure to some projects in the past, we will always keep that under control.</span>
                 <div className="moving-dough"></div>
             </div>
 
@@ -48,7 +48,7 @@ const Question = () => {
             <div className="question-box">
                 <span className="question-heading">What is going to be the supply and price for the SolDough Market NFTs?</span>
 
-                <span className="answer-span">We will be creating 250 of SolDough Market NFTs. 200 of them will be released to the community for sale and 50 of them will be airdropped to our OG members on discord with a lottery. Mint price of SolDough Market NFTs will be 0.66◎. </span>
+                <span className="answer-span">We will be creating 200 of SolDough Market NFTs. 150 of them will be released to the community for sale and 50 of them will be airdropped to our OG members on discord with a lottery. Mint price of SolDough Market NFTs will be 0.6◎. </span>
                 <div className="moving-dough"></div>
             </div>
 

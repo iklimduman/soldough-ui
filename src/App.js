@@ -14,6 +14,8 @@ import End from './End/End';
 import Dividerbrown from './Dividerbrown/Divider';
 import Dividergolden from './Dividergolden/Divider';
 import Divideryellow from './Divideryellow/Divider';
+import Tier from './Tier/Tier';
+import Dividerblack from './Dividerblack/Dividerblack';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <Part />
       <Dividerbrown />
       <Market />
+      <Dividerblack />
+      <Tier />
       <Divideryellow />
       <Timeline />
       <Dividergolden />

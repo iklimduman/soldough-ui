@@ -38,7 +38,7 @@
 .market-image{
     height : 400px ;
     width : 400px ;
-    background: url("../assets/images/market-gif.gif") no-repeat;
+    background: url("../assets/images/SolDoughMarketGif.gif") no-repeat;
     background-size: contain;
     box-shadow: 
 
@@ -50,7 +50,7 @@
 
     1px 1px 1px #A40000 ,
     1px 2px 1px #A40000 ,
-    1px 3px 1px #A40000;;
+    1px 3px 1px #A40000;
     border-radius: 5%;
 }
 

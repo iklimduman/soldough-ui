@@ -6,11 +6,11 @@ const Banner = () => {
     return (
         <header className="banner-container">
             <div className="image-div">
-                <span className="welcome">Welcome to</span>
+                <span className="welcome">Welcome to the</span>
                 <div className="banner-header"><div className="actual-header">
                     </div>
                 </div>
-                <span className="solana">4,444 SOLDOUGHS MINTING ON SOLANA</span>
+                <span className="solana">2,750 SOLDOUGHS MINTING ON SOLANA</span>
                 
 
 
@@ -20,7 +20,7 @@ const Banner = () => {
                 <div className="button-div">
                     <a
                         className="discord-button-top"
-                        href="https://discord.gg/wVAxxw3rn4"
+                        href="https://discord.gg/kFZ48KkNaY"
                         target="_blank">
                         Join the community on Discord</a>
                     <a className="twitter-button-top" href="https://twitter.com/SolDough" target="_blank">

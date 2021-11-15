@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className="button-cont">
                 <a className="discord-button"
-                    href="https://discord.gg/wVAxxw3rn4"
+                    href="https://discord.gg/kFZ48KkNaY"
                     target="_blank"
                     rel="noopener noreferrer">
                     Join the community on Discord</a>
