@@ -27,7 +27,7 @@ const Tier = () => {
                             </li>
                             <li>
                                 <div className="tier-item-2">
-                                    <span className="tier-header" >Holding 5-9 SolDoug</span>
+                                    <span className="tier-header" >Holding 5-9 SolDough </span>
                                     <span className="x"> 2 X coefficients of the airdrop</span>
                                 </div>
                             </li>
