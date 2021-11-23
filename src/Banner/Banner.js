@@ -10,7 +10,7 @@ const Banner = () => {
                 <div className="banner-header"><div className="actual-header">
                     </div>
                 </div>
-                <span className="solana">2,750 SOLDOUGHS MINTING ON SOLANA</span>
+                <span className="solana">1,375 SOLDOUGHS MINTING ON SOLANA</span>
                 
 
 

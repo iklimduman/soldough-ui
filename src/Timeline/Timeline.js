@@ -36,7 +36,7 @@ const Timeline = () => {
 
                             <div calssName="yatay-2">
                                 <ul>
-                                    <li>SolDough supply reduced from 4444 to 2750, price reduced from 0.44 to 0.4</li>
+                                    <li>SolDough supply reduced from 4444 to 1375, price reduced from 0.44 to 0.4</li>
                                     <li>SolDough Market Supply reduced from 250 to 200. Price reduced from 0.66 to 0.6 </li>
                                     <li>Official Announcement of $POM Token partnership</li>
                                     <li>Tier system & roadmap v1.1 is announced</li>
@@ -55,10 +55,10 @@ const Timeline = () => {
                         <div className="item-1">
                             <div className="deneme">
                                 <ul>
-                                    <li>Public Launch of SolDough Market Mini-Collection (19th of November)</li>
-                                    <li>Secondary Marketplace for SolDough Markets</li>
-                                    <li>50.000 $POM token airdrop to SolDough Market Holders</li>
-                                    <li>Public Launch of SolDough Collection (26th of November)</li>
+                                    <li>Public Launch of SolDough Market Mini-Collection (SOLD OUT)</li>
+                                    <li>Listed onMgicEden, Digital Eyes and SolSea</li>
+                                    <li>100.000 $POM token airdrop to SolDough Market Holders</li>
+                                    <li>Public Launch of SolDough Collection (3rd of December)</li>
                                     <li>Airdrops SolDough to SolDough Market Holders</li>
                                     <li>Secondary Marketplace for SolDough</li>
                                     <li>Rarity List Publication</li>
@@ -83,13 +83,11 @@ const Timeline = () => {
                             </div>
 
                             <ul className="last-text">
-                                <li>Deflationary buyback & burn starts (Up to 750 SolDough NFTs)</li>
                                 <li>Tier system goes live</li>
                                 <li>Grape verification</li>
-                                <li>$POM airdrop starts.(Equals to 5.000$ in every two weeks untill 200.000.000 $POM is over)</li>
+                                <li>$POM airdrop starts.(Equals to 2.500$ in every two weeks untill 100.000.000 $POM is over)</li>
                                 <li>Poster airdrops for SolDough Market holders</li>
-                                <li>DAO establishment</li>
-                                <li>DAO decides the second airdrop token (500$ in every two weeks)</li>
+                                <li>DAO decides the second airdrop token (250$ in every two weeks)</li>
                                 <li>Beauty rank system goes live </li>
                                 <li>Staking system launch for airdrops</li>
                             </ul>
