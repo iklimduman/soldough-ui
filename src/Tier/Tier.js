@@ -67,7 +67,7 @@ const Tier = () => {
                             </li>
                             <li>
                                 <div className="token-item">
-                                    <span className="token-text-circle">60%</span><span className="token-text"> of Loyalty Income to DAO Wallet</span>
+                                    <span className="token-text-circle">60%</span><span className="token-text"> of Royalty Income to DAO Wallet</span>
                                 </div>
                             </li>
 
